@@ -1,0 +1,53 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: helvetica;
+	font-size: 16px;
+	text-align: justify;
+}
+
+#titulo{
+	border: 2px black solid;
+	border-style: dashed;
+	text-align: center;
+	width: 150px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+#desarrollo{
+	width: 1000px;
+	margin: auto;
+	background-color: rgba(255,255,225,.4);
+	border-radius: 10px;
+	padding: 8px;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	font-family: Segoe UI Light;
+	
+
+}
+
+hr{
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width: 170px;
+	background-color: black;
+	height: 1px;
+}
+
+#im2{
+	border: 1px black solid;
+	border-style: dashed;
+	width: 300px;
+	height: 400px;
+	margin-left: 440px;
+	margin-bottom: 10px;
+	
+}

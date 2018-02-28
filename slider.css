@@ -1,0 +1,134 @@
+*{
+	padding: 0px;
+	margin:0px;
+
+}
+
+html{
+	font-family: Segoe UI Light;
+	font-size: 20px;
+	background-image: url(imagenes/fondo10.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#hey{
+	margin-bottom: 50px;
+	margin-left: 570px;
+	margin-top: 30px;
+	width: 200px;
+	text-align: center;
+	border: 4px #767272 dotted;
+	font-weight: bold;
+
+}
+ .slider, .slider, .slider3{
+ 	display:inline-block;
+ }
+
+
+
+@keyframes carrusel-infinito
+
+{
+0%, 12.5% { background-image: url(imagenes/slider/slider1.jpg); }
+
+12.5%, 25%{background-image: url(imagenes/slider/slider2.jpg);  }
+
+25%, 37.5%{background-image: url(imagenes/slider/slider3.jpg);  }
+
+37.5%, 50%{background-image: url(imagenes/slider/slider4.jpg);  }
+
+50%, 62.5%{background-image: url(imagenes/slider/slider5.jpg);	 }
+
+62.5%, 75%{background-image: url(imagenes/slider/slider6.jpg);	 }
+
+75%, 87.5%{background-image: url(imagenes/slider/slider7.png);	 }
+
+87.5%, 100%{background-image: url(imagenes/slider/slider8.jpg); }
+ 
+}
+
+.slider{
+	background: transparent url(imagenes/sider/slider1.jpg) no-repeat center;
+	width: 250px;
+	height: 400px;
+	margin-top: 100px;
+	float: right;
+	margin-right: 20px;
+	background-size: contain;
+	border-radius: 10px;
+	
+	animation: carrusel-infinito 40s infinite 0s alternate ease-out;
+
+}
+
+@keyframes carrusel-infinito2
+
+{
+0%, 12.5% { background-image: url(imagenes/slider/ico1.jpg); }
+
+12.5%, 25%{background-image: url(imagenes/slider/ico2.jpg);  }
+
+25%, 37.5%{background-image: url(imagenes/slider/ico3.jpg);  }
+
+37.5%, 50%{background-image: url(imagenes/slider/ico4.jpg);  }
+
+50%, 62.5%{background-image: url(imagenes/slider/ico5.jpg);	 }
+
+62.5%, 75%{background-image: url(imagenes/slider/ico6.jpg);	 }
+
+75%, 87.5%{background-image: url(imagenes/slider/ico7.jpg);	 }
+
+87.5%, 100%{background-image: url(imagenes/slider/ico8.jpg); }
+ 
+}
+
+.slider2{
+	background: transparent url(imagenes/slider/ico1.png) no-repeat center;
+	width: 250px;
+	height: 400px;
+	margin-top: 100px;
+	float: left;
+	margin-left: 20px;
+	background-size: contain;
+
+	border-radius: 10px;
+	animation: carrusel-infinito2 40s infinite 0s alternate ease-out;
+	
+}
+
+
+@keyframes carrusel-infinito3
+
+{
+0%, 12.5% { background-image: url(imagenes/slider/im1.jpg); }
+
+12.5%, 25%{background-image: url(imagenes/slider/im2.jpg);  }
+
+25%, 37.5%{background-image: url(imagenes/slider/im3.jpg);  }
+
+37.5%, 50%{background-image: url(imagenes/slider/im4.jpg);  }
+
+50%, 62.5%{background-image: url(imagenes/slider/im5.jpg);	 }
+
+62.5%, 75%{background-image: url(imagenes/slider/im6.jpg);	 }
+
+75%, 87.5%{background-image: url(imagenes/slider/im7.jpg);	 }
+
+87.5%, 100%{background-image: url(imagenes/slider/im8.jpg); }
+ 
+}
+
+.slider3{
+	background: transparent url(imagenes/slider/ico1.png) no-repeat center;
+	width: 800px;
+	height: 450px;
+	margin:auto;
+	float: top;
+
+	background-size: contain;
+	border-radius: 0px;
+	animation: carrusel-infinito3 40s infinite 0s alternate ease-out;
+	

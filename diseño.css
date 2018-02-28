@@ -1,0 +1,112 @@
+body{
+	
+	font-size-adjust: 28px;
+	font-family: helvetica;
+	text-shadow: 3px 2px 5px #635E5E;
+	color: black;
+	text-align: center;
+	background-image: url(imagenes/fondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+#encabezado{
+
+	width: 680px;
+	border: 2px black solid;
+	border-radius: 10px;
+	text-align: center;
+	margin:auto;
+	background-color: rgba(255,255,255,.3);
+}
+
+#desarrollo{
+	font-family: Segoe UI Light;
+	font-size: 18PX;
+	width: 680px;
+	border: 2px black solid;
+	border-radius: 10px;
+	text-align: justify;
+	text-shadow: none;
+	margin:20px 300px 20px 325px;
+	background-color: rgba(255,255,255,.3);
+	padding: 10px;
+	
+}
+
+#img{
+	width: 350px;
+	border: 2px ;
+	border-radius: 10px;
+}
+
+hr{
+	margin-top: 20px;
+	width: 250px;
+	border: 2px black solid;
+	border-radius: 20px;
+}
+
+#menu{
+	font-family: Segoe UI Light;
+	border-top: 3px black solid;
+	margin:4px;
+	height: 100px;
+}
+
+#menu li{
+	display: inline-block;
+	height: 50px;
+	padding-top: 30px;
+	border-radius: 0 0 1em 1em;
+	transition: all 1s ease;
+
+}
+
+#menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 0 20px;
+	font-weight: bold;
+	vertical-align: bottom;
+	margin:5px;
+}
+
+#menu li:hover>a, #menu li:hover{
+	height: 60px;
+}
+
+#Inicio{
+	background-color: black;
+}
+
+#Recuerdos{
+	background-color: black;
+}
+
+#Imagenes{
+	background-color: black;
+}
+
+#Videos{
+	background-color: black;
+}
+
+#Regalos{
+	background-color: black;
+}
+
+h3{
+	font-family: HP Simplified Light;
+	text-decoration: underline;
+	text-shadow: none;
+}
+
+h2{
+	
+	font-family: helvetica;
+	letter-spacing: 5px;
+	text-shadow: none;
+	
+}

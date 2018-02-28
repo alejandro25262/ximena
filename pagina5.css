@@ -1,0 +1,52 @@
+*{
+	margin:0px;
+	padding: 0px;
+
+}
+
+body{
+	font-family: Segoe UI Light;
+	font-size: 16px;
+	color:black;
+}
+
+#titulo{
+	width: 300px;
+	padding: 20px;
+	font-size: 30px;
+	background-color: rgba(255,255,255,.6);
+	border-radius: 10px;
+	text-align: center;
+	margin:auto;
+	margin-top: 20px;
+	font-weight: bolder;
+	text-shadow: 2px 3px 5px #D363EF;
+}
+
+#texto{
+margin-bottom: 20px;
+font-family: Gadugi;
+padding: 10px;
+background-color: rgba(255,255,255,.3);
+margin-top: 20px;
+font-size: 16px;
+text-align: justify;
+}
+
+#puntos{
+	text-align: center;
+	margin: auto;
+	font-family: Gadugi;
+	width: 250px;
+	line-height: 5px;
+	font-weight: bolder;
+
+}
+
+#puntos li{
+	display: block;
+	font-size: 16px;
+	height: 20px;
+	background-color: rgba(255,255,255,.3);
+	border-radius: 10px;
+}

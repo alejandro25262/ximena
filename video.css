@@ -1,0 +1,18 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: helvetica;
+	font-size: 16px;
+	text-align: justify;
+	background-image: url(imagenes/fondo.jpg);
+	background-color: black;
+}
+
+#video {
+	margin: 50px;
+	justify-content: center;
+
+}

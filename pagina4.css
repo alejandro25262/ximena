@@ -1,0 +1,111 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: Segoe UI Light;
+	font-size: 16px;
+	color: white;
+}
+
+#encabezado{
+	background-image: url(imagenes/icono6.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#contraste{
+	background-color: rgba(0,0,0,.7);
+	height: 570px;
+	text-align: center;
+	opacity: .6;
+}
+
+#icon{
+   border-radius: 50px;
+	height: 10px;
+	width: 20px;
+	margin-left: 40px;
+	float: left;
+
+
+}
+
+#img{
+	border-radius: 50px;
+	margin-top: 20px;
+width: 80px;
+height: 80px;
+
+}
+
+#menu{
+
+	font-family: Microsoft YaHei Light;
+	float: right;
+	text-align:right;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+
+#texto{
+    font-family: Microsoft YaHei Light;
+	margin-top: 200px;
+	margin-left: 30px;
+	float: left;
+	width: 480px;
+	text-align: left;
+
+}
+
+
+#menu li{
+	display: inline-block;
+	
+	font-size: 16px;
+	height: 20px;
+	background-color: rgba(255,255,255,.3);
+	border-radius: 10px;
+	
+}
+
+#menu li a{
+	text-decoration:none;
+	vertical-align: bottom;
+	padding: 30px;
+	width: 100px;
+	color: #fff;
+	font-weight: bold;
+	transition: all 1s ease;
+}
+
+#texto2{
+	background-color: rgba(255,255,255,.3);
+	float: right;
+	margin-top: 200px;
+	width: 350px;
+	height: 200px;
+	padding: 10px;
+	text-align: justify;
+	border-radius: 10px;
+	margin-right: 200px;
+
+}
+
+#viaje{
+	background-color: rgba(255,255,255,.3);
+	width: 200px;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-left: 480px;
+}
+
+#abajo{
+	color: black;
+	text-align: justify;
+	padding: 10px;
+	text-shadow: 5px 3px 8px #67F2BC;
+}

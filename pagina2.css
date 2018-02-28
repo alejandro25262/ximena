@@ -1,0 +1,62 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: Segoe UI Light;
+	font-size: 11px;
+	text-align: center;
+}
+
+#tit{
+	margin-top: 10px;
+	width: 200px;
+	height: 30px;
+	margin-left: 500px;
+	
+
+}
+
+#im3{
+	width: 280px;
+	height: 420px;
+	margin: auto;
+	margin-top: 20px;
+	clear: left;
+}
+
+#primero{
+	float: left;
+	width: 200px;
+	height: 580px;	
+	font-size: 16px;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	text-align: center;
+	margin-left: 80px;
+	border: 8px black double;
+	padding: 8px;
+	background-color: rgba(0,0,0,.1);
+
+}
+
+#img{
+	margin-right: 290px;
+	margin-top: 50px;
+}
+
+#segundo{
+	float: right;
+	padding: 8px;
+	width: 200px;
+	height: 580px;
+	font-size: 16px;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	text-align: center;
+	margin-right: 80px;
+	border: 8px black double;
+	background-color: rgba(0,0,0,.1);
+
+}
